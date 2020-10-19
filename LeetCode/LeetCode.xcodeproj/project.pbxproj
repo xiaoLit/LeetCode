@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75BDEB7825170F1500343EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7725170F1500343EB7 /* AppDelegate.swift */; };
+		75BDEB7A25170F1500343EB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7925170F1500343EB7 /* SceneDelegate.swift */; };
+		75BDEB7C25170F1500343EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7B25170F1500343EB7 /* ViewController.swift */; };
+		75BDEB7F25170F1500343EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BDEB7D25170F1500343EB7 /* Main.storyboard */; };
+		75BDEB8125170F1500343EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75BDEB8025170F1500343EB7 /* Assets.xcassets */; };
+		75BDEB8425170F1500343EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BDEB8225170F1500343EB7 /* LaunchScreen.storyboard */; };
+		75BDEB9525170FFA00343EB7 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB9425170FFA00343EB7 /* ListNode.swift */; };
+		75BDEB992517101000343EB7 /* 237. 删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB982517101000343EB7 /* 237. 删除链表中的节点.swift */; };
+		75BDEB9C2517103600343EB7 /* 206. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB9B2517103600343EB7 /* 206. 反转链表.swift */; };
+		75BDEBA02517818800343EB7 /* 141. 环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB9F2517818800343EB7 /* 141. 环形链表.swift */; };
+		75BDEBA3251A3F1300343EB7 /* 203. 移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBA2251A3F1300343EB7 /* 203. 移除链表元素.swift */; };
+		75BDEBA9252976BB00343EB7 /* 83. 删除(未)排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBA8252976BB00343EB7 /* 83. 删除(未)排序链表中的重复元素.swift */; };
+		75BDEBAC252979B800343EB7 /* 876. 链表的中间结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBAB252979B800343EB7 /* 876. 链表的中间结点.swift */; };
+		75BDEBAF252B157900343EB7 /* 21. 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBAE252B157900343EB7 /* 21. 合并两个有序链表.swift */; };
+		75BDEBB4252C7AD900343EB7 /* 面试题 02.02. 返回倒数第 k 个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBB3252C7AD900343EB7 /* 面试题 02.02. 返回倒数第 k 个节点.swift */; };
+		75BDEBBF252C821300343EB7 /* 234. 回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBBE252C821300343EB7 /* 234. 回文链表.swift */; };
+		75BDEBC2252CAECE00343EB7 /* 160. 相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBC1252CAECE00343EB7 /* 160. 相交链表.swift */; };
+		75BDEBC5252CB84800343EB7 /* 1290. 二进制链表转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBC4252CB84800343EB7 /* 1290. 二进制链表转整数.swift */; };
+		75BDEBCA252EA6AF00343EB7 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBC9252EA6AF00343EB7 /* Stack.swift */; };
+		75BDEBCE252EA6CB00343EB7 /* 20. 有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBCD252EA6CB00343EB7 /* 20. 有效的括号.swift */; };
+		75BDEBD2252F0F1D00343EB7 /* 430. 扁平化多级双向链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBD1252F0F1D00343EB7 /* 430. 扁平化多级双向链表.swift */; };
+		75BDEBD8252F195400343EB7 /* 61. 旋转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBD7252F195400343EB7 /* 61. 旋转链表.swift */; };
+		75BDEBDB252F205B00343EB7 /* 138. 复制带随机指针的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBDA252F205B00343EB7 /* 138. 复制带随机指针的链表.swift */; };
+		75BDEBDF252F5F0900343EB7 /* 445. 两数相加 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBDE252F5F0900343EB7 /* 445. 两数相加 II.swift */; };
+		75BDEBE82532A88600343EB7 /* 232. 用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBE72532A88600343EB7 /* 232. 用栈实现队列.swift */; };
+		75BDEBED2533122E00343EB7 /* 二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBEC2533122D00343EB7 /* 二叉树.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75BDEB7425170F1500343EB7 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BDEB7725170F1500343EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75BDEB7925170F1500343EB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75BDEB7B25170F1500343EB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75BDEB7E25170F1500343EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75BDEB8025170F1500343EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75BDEB8325170F1500343EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75BDEB8525170F1500343EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75BDEB9425170FFA00343EB7 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		75BDEB982517101000343EB7 /* 237. 删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. 删除链表中的节点.swift"; sourceTree = "<group>"; };
+		75BDEB9B2517103600343EB7 /* 206. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. 反转链表.swift"; sourceTree = "<group>"; };
+		75BDEB9F2517818800343EB7 /* 141. 环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141. 环形链表.swift"; sourceTree = "<group>"; };
+		75BDEBA2251A3F1300343EB7 /* 203. 移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203. 移除链表元素.swift"; sourceTree = "<group>"; };
+		75BDEBA8252976BB00343EB7 /* 83. 删除(未)排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83. 删除(未)排序链表中的重复元素.swift"; sourceTree = "<group>"; };
+		75BDEBAB252979B800343EB7 /* 876. 链表的中间结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876. 链表的中间结点.swift"; sourceTree = "<group>"; };
+		75BDEBAE252B157900343EB7 /* 21. 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. 合并两个有序链表.swift"; sourceTree = "<group>"; };
+		75BDEBB3252C7AD900343EB7 /* 面试题 02.02. 返回倒数第 k 个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.02. 返回倒数第 k 个节点.swift"; sourceTree = "<group>"; };
+		75BDEBBE252C821300343EB7 /* 234. 回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234. 回文链表.swift"; sourceTree = "<group>"; };
+		75BDEBC1252CAECE00343EB7 /* 160. 相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. 相交链表.swift"; sourceTree = "<group>"; };
+		75BDEBC4252CB84800343EB7 /* 1290. 二进制链表转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. 二进制链表转整数.swift"; sourceTree = "<group>"; };
+		75BDEBC9252EA6AF00343EB7 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		75BDEBCD252EA6CB00343EB7 /* 20. 有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20. 有效的括号.swift"; sourceTree = "<group>"; };
+		75BDEBD1252F0F1D00343EB7 /* 430. 扁平化多级双向链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "430. 扁平化多级双向链表.swift"; sourceTree = "<group>"; };
+		75BDEBD7252F195400343EB7 /* 61. 旋转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61. 旋转链表.swift"; sourceTree = "<group>"; };
+		75BDEBDA252F205B00343EB7 /* 138. 复制带随机指针的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "138. 复制带随机指针的链表.swift"; sourceTree = "<group>"; };
+		75BDEBDE252F5F0900343EB7 /* 445. 两数相加 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "445. 两数相加 II.swift"; sourceTree = "<group>"; };
+		75BDEBE72532A88600343EB7 /* 232. 用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232. 用栈实现队列.swift"; sourceTree = "<group>"; };
+		75BDEBEC2533122D00343EB7 /* 二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二叉树.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75BDEB7125170F1500343EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75BDEB6B25170F1500343EB7 = {
+			isa = PBXGroup;
+			children = (
+				75BDEB9325170FC900343EB7 /* linked-list(链表) */,
+				75BDEBC8252EA69F00343EB7 /* Stack(栈) */,
+				75BDEBEA2533034700343EB7 /* Binary(二叉树) */,
+				75BDEB8C25170F3100343EB7 /* Other */,
+				75BDEB7525170F1500343EB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75BDEB7525170F1500343EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75BDEB7425170F1500343EB7 /* LeetCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75BDEB8C25170F3100343EB7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				75BDEB7725170F1500343EB7 /* AppDelegate.swift */,
+				75BDEB7925170F1500343EB7 /* SceneDelegate.swift */,
+				75BDEB7B25170F1500343EB7 /* ViewController.swift */,
+				75BDEB7D25170F1500343EB7 /* Main.storyboard */,
+				75BDEB8025170F1500343EB7 /* Assets.xcassets */,
+				75BDEB8225170F1500343EB7 /* LaunchScreen.storyboard */,
+				75BDEB8525170F1500343EB7 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		75BDEB9325170FC900343EB7 /* linked-list(链表) */ = {
+			isa = PBXGroup;
+			children = (
+				75BDEB9425170FFA00343EB7 /* ListNode.swift */,
+				75BDEB982517101000343EB7 /* 237. 删除链表中的节点.swift */,
+				75BDEB9B2517103600343EB7 /* 206. 反转链表.swift */,
+				75BDEB9F2517818800343EB7 /* 141. 环形链表.swift */,
+				75BDEBA2251A3F1300343EB7 /* 203. 移除链表元素.swift */,
+				75BDEBA8252976BB00343EB7 /* 83. 删除(未)排序链表中的重复元素.swift */,
+				75BDEBAB252979B800343EB7 /* 876. 链表的中间结点.swift */,
+				75BDEBAE252B157900343EB7 /* 21. 合并两个有序链表.swift */,
+				75BDEBB3252C7AD900343EB7 /* 面试题 02.02. 返回倒数第 k 个节点.swift */,
+				75BDEBBE252C821300343EB7 /* 234. 回文链表.swift */,
+				75BDEBC1252CAECE00343EB7 /* 160. 相交链表.swift */,
+				75BDEBC4252CB84800343EB7 /* 1290. 二进制链表转整数.swift */,
+				75BDEBD0252F0EF600343EB7 /* 中级 */,
+				75BDEBD1252F0F1D00343EB7 /* 430. 扁平化多级双向链表.swift */,
+				75BDEBD7252F195400343EB7 /* 61. 旋转链表.swift */,
+				75BDEBDA252F205B00343EB7 /* 138. 复制带随机指针的链表.swift */,
+				75BDEBDE252F5F0900343EB7 /* 445. 两数相加 II.swift */,
+			);
+			path = "linked-list(链表)";
+			sourceTree = "<group>";
+		};
+		75BDEBC8252EA69F00343EB7 /* Stack(栈) */ = {
+			isa = PBXGroup;
+			children = (
+				75BDEBC9252EA6AF00343EB7 /* Stack.swift */,
+				75BDEBCD252EA6CB00343EB7 /* 20. 有效的括号.swift */,
+				75BDEBE72532A88600343EB7 /* 232. 用栈实现队列.swift */,
+			);
+			path = "Stack(栈)";
+			sourceTree = "<group>";
+		};
+		75BDEBD0252F0EF600343EB7 /* 中级 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "中级";
+			sourceTree = "<group>";
+		};
+		75BDEBEA2533034700343EB7 /* Binary(二叉树) */ = {
+			isa = PBXGroup;
+			children = (
+				75BDEBEC2533122D00343EB7 /* 二叉树.swift */,
+			);
+			path = "Binary(二叉树)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75BDEB7325170F1500343EB7 /* LeetCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75BDEB8825170F1500343EB7 /* Build configuration list for PBXNativeTarget "LeetCode" */;
+			buildPhases = (
+				75BDEB7025170F1500343EB7 /* Sources */,
+				75BDEB7125170F1500343EB7 /* Frameworks */,
+				75BDEB7225170F1500343EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCode;
+			productName = LeetCode;
+			productReference = 75BDEB7425170F1500343EB7 /* LeetCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75BDEB6C25170F1500343EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					75BDEB7325170F1500343EB7 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 75BDEB6F25170F1500343EB7 /* Build configuration list for PBXProject "LeetCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75BDEB6B25170F1500343EB7;
+			productRefGroup = 75BDEB7525170F1500343EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75BDEB7325170F1500343EB7 /* LeetCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75BDEB7225170F1500343EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BDEB8425170F1500343EB7 /* LaunchScreen.storyboard in Resources */,
+				75BDEB8125170F1500343EB7 /* Assets.xcassets in Resources */,
+				75BDEB7F25170F1500343EB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75BDEB7025170F1500343EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BDEB7C25170F1500343EB7 /* ViewController.swift in Sources */,
+				75BDEBDB252F205B00343EB7 /* 138. 复制带随机指针的链表.swift in Sources */,
+				75BDEB9C2517103600343EB7 /* 206. 反转链表.swift in Sources */,
+				75BDEBD8252F195400343EB7 /* 61. 旋转链表.swift in Sources */,
+				75BDEBB4252C7AD900343EB7 /* 面试题 02.02. 返回倒数第 k 个节点.swift in Sources */,
+				75BDEBC2252CAECE00343EB7 /* 160. 相交链表.swift in Sources */,
+				75BDEB7825170F1500343EB7 /* AppDelegate.swift in Sources */,
+				75BDEBAF252B157900343EB7 /* 21. 合并两个有序链表.swift in Sources */,
+				75BDEB992517101000343EB7 /* 237. 删除链表中的节点.swift in Sources */,
+				75BDEBDF252F5F0900343EB7 /* 445. 两数相加 II.swift in Sources */,
+				75BDEBCE252EA6CB00343EB7 /* 20. 有效的括号.swift in Sources */,
+				75BDEB7A25170F1500343EB7 /* SceneDelegate.swift in Sources */,
+				75BDEB9525170FFA00343EB7 /* ListNode.swift in Sources */,
+				75BDEBE82532A88600343EB7 /* 232. 用栈实现队列.swift in Sources */,
+				75BDEBA02517818800343EB7 /* 141. 环形链表.swift in Sources */,
+				75BDEBA9252976BB00343EB7 /* 83. 删除(未)排序链表中的重复元素.swift in Sources */,
+				75BDEBC5252CB84800343EB7 /* 1290. 二进制链表转整数.swift in Sources */,
+				75BDEBCA252EA6AF00343EB7 /* Stack.swift in Sources */,
+				75BDEBBF252C821300343EB7 /* 234. 回文链表.swift in Sources */,
+				75BDEBA3251A3F1300343EB7 /* 203. 移除链表元素.swift in Sources */,
+				75BDEBD2252F0F1D00343EB7 /* 430. 扁平化多级双向链表.swift in Sources */,
+				75BDEBED2533122E00343EB7 /* 二叉树.swift in Sources */,
+				75BDEBAC252979B800343EB7 /* 876. 链表的中间结点.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75BDEB7D25170F1500343EB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BDEB7E25170F1500343EB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75BDEB8225170F1500343EB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BDEB8325170F1500343EB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75BDEB8625170F1500343EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75BDEB8725170F1500343EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75BDEB8925170F1500343EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Other/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lit.LeetCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75BDEB8A25170F1500343EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Other/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lit.LeetCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75BDEB6F25170F1500343EB7 /* Build configuration list for PBXProject "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BDEB8625170F1500343EB7 /* Debug */,
+				75BDEB8725170F1500343EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75BDEB8825170F1500343EB7 /* Build configuration list for PBXNativeTarget "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BDEB8925170F1500343EB7 /* Debug */,
+				75BDEB8A25170F1500343EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75BDEB6C25170F1500343EB7 /* Project object */;
+}
