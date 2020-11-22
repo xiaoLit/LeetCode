@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75145D872545C27500EC01C2 /* 102. 二叉树的层序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */; };
 		75BDEB7825170F1500343EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7725170F1500343EB7 /* AppDelegate.swift */; };
 		75BDEB7A25170F1500343EB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7925170F1500343EB7 /* SceneDelegate.swift */; };
 		75BDEB7C25170F1500343EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7B25170F1500343EB7 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. 二叉树的层序遍历.swift"; sourceTree = "<group>"; };
 		75BDEB7425170F1500343EB7 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BDEB7725170F1500343EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75BDEB7925170F1500343EB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				75BDEBEC2533122D00343EB7 /* 二叉树.swift */,
+				75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */,
 			);
 			path = "Binary(二叉树)";
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				75BDEB9C2517103600343EB7 /* 206. 反转链表.swift in Sources */,
 				75BDEBD8252F195400343EB7 /* 61. 旋转链表.swift in Sources */,
 				75BDEBB4252C7AD900343EB7 /* 面试题 02.02. 返回倒数第 k 个节点.swift in Sources */,
+				75145D872545C27500EC01C2 /* 102. 二叉树的层序遍历.swift in Sources */,
 				75BDEBC2252CAECE00343EB7 /* 160. 相交链表.swift in Sources */,
 				75BDEB7825170F1500343EB7 /* AppDelegate.swift in Sources */,
 				75BDEBAF252B157900343EB7 /* 21. 合并两个有序链表.swift in Sources */,
