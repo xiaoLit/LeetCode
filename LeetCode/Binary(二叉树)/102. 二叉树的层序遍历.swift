@@ -9,7 +9,7 @@
  给你一个二叉树，请你返回其按 层序遍历 得到的节点值。 （即逐层地，从左到右访问所有节点）。
 
   
-
+//   
  示例：
  二叉树：[3,9,20,null,null,15,7],
  3
@@ -31,39 +31,6 @@
  */
 
 import Foundation
-/**
- 执行用时：
- 12 ms
- , 在所有 Swift 提交中击败了
- 98.59%
- 的用户
- 内存消耗：
- 13.6 MB
- , 在所有 Swift 提交中击败了
- 77.12%
- 的用户
- */
-func levelOrder(_ root: TreeNode?) -> [[Int]] {
-    guard let root = root else { return [] }
-    
-    var result: [[Int]] = []
-    var queue: [TreeNode] = [root]
-    
-    var levelResult: [Int] = []
-    while !queue.isEmpty {
-        
-        for _ in 0 ..< queue.count {
-            let node = queue.removeFirst()
-            levelResult.append(node.val)
-            if node.left != nil { queue.append(node.left!)}
-            if node.right != nil { queue.append(node.right!) }
-        }
-        result.append(levelResult)
-        levelResult = []
-    }
-    return result
-}
-
 
 //广度优先遍历BFS   (利用两个数组模拟队列queue  nextLevelQueue)
 func levelOrder2(_ root: TreeNode?) -> [[Int]] {

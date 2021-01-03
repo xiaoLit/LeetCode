@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		75145D872545C27500EC01C2 /* 102. 二叉树的层序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */; };
+		7539AF16257E73BA00805AD4 /* 94. 二叉树的中序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539AF15257E73BA00805AD4 /* 94. 二叉树的中序遍历.swift */; };
 		75BDEB7825170F1500343EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7725170F1500343EB7 /* AppDelegate.swift */; };
 		75BDEB7A25170F1500343EB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7925170F1500343EB7 /* SceneDelegate.swift */; };
 		75BDEB7C25170F1500343EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7B25170F1500343EB7 /* ViewController.swift */; };
@@ -34,10 +35,12 @@
 		75BDEBDF252F5F0900343EB7 /* 445. 两数相加 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBDE252F5F0900343EB7 /* 445. 两数相加 II.swift */; };
 		75BDEBE82532A88600343EB7 /* 232. 用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBE72532A88600343EB7 /* 232. 用栈实现队列.swift */; };
 		75BDEBED2533122E00343EB7 /* 二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEBEC2533122D00343EB7 /* 二叉树.swift */; };
+		75BE5100257D19B900895EDD /* 144. 二叉树的前序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BE50FF257D19B900895EDD /* 144. 二叉树的前序遍历.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. 二叉树的层序遍历.swift"; sourceTree = "<group>"; };
+		7539AF15257E73BA00805AD4 /* 94. 二叉树的中序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94. 二叉树的中序遍历.swift"; sourceTree = "<group>"; };
 		75BDEB7425170F1500343EB7 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BDEB7725170F1500343EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75BDEB7925170F1500343EB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +69,7 @@
 		75BDEBDE252F5F0900343EB7 /* 445. 两数相加 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "445. 两数相加 II.swift"; sourceTree = "<group>"; };
 		75BDEBE72532A88600343EB7 /* 232. 用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232. 用栈实现队列.swift"; sourceTree = "<group>"; };
 		75BDEBEC2533122D00343EB7 /* 二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二叉树.swift"; sourceTree = "<group>"; };
+		75BE50FF257D19B900895EDD /* 144. 二叉树的前序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "144. 二叉树的前序遍历.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 			children = (
 				75BDEBEC2533122D00343EB7 /* 二叉树.swift */,
 				75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */,
+				75BE50FF257D19B900895EDD /* 144. 二叉树的前序遍历.swift */,
+				7539AF15257E73BA00805AD4 /* 94. 二叉树的中序遍历.swift */,
 			);
 			path = "Binary(二叉树)";
 			sourceTree = "<group>";
@@ -240,6 +246,7 @@
 				75145D872545C27500EC01C2 /* 102. 二叉树的层序遍历.swift in Sources */,
 				75BDEBC2252CAECE00343EB7 /* 160. 相交链表.swift in Sources */,
 				75BDEB7825170F1500343EB7 /* AppDelegate.swift in Sources */,
+				75BE5100257D19B900895EDD /* 144. 二叉树的前序遍历.swift in Sources */,
 				75BDEBAF252B157900343EB7 /* 21. 合并两个有序链表.swift in Sources */,
 				75BDEB992517101000343EB7 /* 237. 删除链表中的节点.swift in Sources */,
 				75BDEBDF252F5F0900343EB7 /* 445. 两数相加 II.swift in Sources */,
@@ -250,6 +257,7 @@
 				75BDEBA02517818800343EB7 /* 141. 环形链表.swift in Sources */,
 				75BDEBA9252976BB00343EB7 /* 83. 删除(未)排序链表中的重复元素.swift in Sources */,
 				75BDEBC5252CB84800343EB7 /* 1290. 二进制链表转整数.swift in Sources */,
+				7539AF16257E73BA00805AD4 /* 94. 二叉树的中序遍历.swift in Sources */,
 				75BDEBCA252EA6AF00343EB7 /* Stack.swift in Sources */,
 				75BDEBBF252C821300343EB7 /* 234. 回文链表.swift in Sources */,
 				75BDEBA3251A3F1300343EB7 /* 203. 移除链表元素.swift in Sources */,
