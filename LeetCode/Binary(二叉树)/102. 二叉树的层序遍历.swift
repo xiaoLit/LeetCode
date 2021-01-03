@@ -52,9 +52,8 @@ func levelOrder2(_ root: TreeNode?) -> [[Int]] {
             }
         }
         result.append(temp)
-        queue.removeAll()//可写可不写吧
         queue = nextLevelQueue//将下级元素 赋值给 需要遍历的数组
-        nextLevelQueue.removeAll()
+        nextLevelQueue = []
     }
     return result
 }

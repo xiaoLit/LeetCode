@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		75145D872545C27500EC01C2 /* 102. 二叉树的层序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */; };
 		7539AF16257E73BA00805AD4 /* 94. 二叉树的中序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539AF15257E73BA00805AD4 /* 94. 二叉树的中序遍历.swift */; };
+		7539AF19257E7C0700805AD4 /* 145. 二叉树的后序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539AF18257E7C0700805AD4 /* 145. 二叉树的后序遍历.swift */; };
+		7539AF1F258661F700805AD4 /* 104. 二叉树的最大深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539AF1E258661F700805AD4 /* 104. 二叉树的最大深度.swift */; };
+		7539AF222586692200805AD4 /* 662. 二叉树最大宽度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539AF212586692200805AD4 /* 662. 二叉树最大宽度.swift */; };
+		7539AF8F25A1BEB900805AD4 /* 226. 翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539AF8E25A1BEB900805AD4 /* 226. 翻转二叉树.swift */; };
 		75BDEB7825170F1500343EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7725170F1500343EB7 /* AppDelegate.swift */; };
 		75BDEB7A25170F1500343EB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7925170F1500343EB7 /* SceneDelegate.swift */; };
 		75BDEB7C25170F1500343EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDEB7B25170F1500343EB7 /* ViewController.swift */; };
@@ -41,6 +45,10 @@
 /* Begin PBXFileReference section */
 		75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. 二叉树的层序遍历.swift"; sourceTree = "<group>"; };
 		7539AF15257E73BA00805AD4 /* 94. 二叉树的中序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94. 二叉树的中序遍历.swift"; sourceTree = "<group>"; };
+		7539AF18257E7C0700805AD4 /* 145. 二叉树的后序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "145. 二叉树的后序遍历.swift"; sourceTree = "<group>"; };
+		7539AF1E258661F700805AD4 /* 104. 二叉树的最大深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. 二叉树的最大深度.swift"; sourceTree = "<group>"; };
+		7539AF212586692200805AD4 /* 662. 二叉树最大宽度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "662. 二叉树最大宽度.swift"; sourceTree = "<group>"; };
+		7539AF8E25A1BEB900805AD4 /* 226. 翻转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "226. 翻转二叉树.swift"; sourceTree = "<group>"; };
 		75BDEB7425170F1500343EB7 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BDEB7725170F1500343EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75BDEB7925170F1500343EB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -161,9 +169,13 @@
 			isa = PBXGroup;
 			children = (
 				75BDEBEC2533122D00343EB7 /* 二叉树.swift */,
-				75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */,
 				75BE50FF257D19B900895EDD /* 144. 二叉树的前序遍历.swift */,
 				7539AF15257E73BA00805AD4 /* 94. 二叉树的中序遍历.swift */,
+				7539AF18257E7C0700805AD4 /* 145. 二叉树的后序遍历.swift */,
+				75145D862545C27500EC01C2 /* 102. 二叉树的层序遍历.swift */,
+				7539AF1E258661F700805AD4 /* 104. 二叉树的最大深度.swift */,
+				7539AF212586692200805AD4 /* 662. 二叉树最大宽度.swift */,
+				7539AF8E25A1BEB900805AD4 /* 226. 翻转二叉树.swift */,
 			);
 			path = "Binary(二叉树)";
 			sourceTree = "<group>";
@@ -243,6 +255,8 @@
 				75BDEB9C2517103600343EB7 /* 206. 反转链表.swift in Sources */,
 				75BDEBD8252F195400343EB7 /* 61. 旋转链表.swift in Sources */,
 				75BDEBB4252C7AD900343EB7 /* 面试题 02.02. 返回倒数第 k 个节点.swift in Sources */,
+				7539AF1F258661F700805AD4 /* 104. 二叉树的最大深度.swift in Sources */,
+				7539AF19257E7C0700805AD4 /* 145. 二叉树的后序遍历.swift in Sources */,
 				75145D872545C27500EC01C2 /* 102. 二叉树的层序遍历.swift in Sources */,
 				75BDEBC2252CAECE00343EB7 /* 160. 相交链表.swift in Sources */,
 				75BDEB7825170F1500343EB7 /* AppDelegate.swift in Sources */,
@@ -264,6 +278,8 @@
 				75BDEBD2252F0F1D00343EB7 /* 430. 扁平化多级双向链表.swift in Sources */,
 				75BDEBED2533122E00343EB7 /* 二叉树.swift in Sources */,
 				75BDEBAC252979B800343EB7 /* 876. 链表的中间结点.swift in Sources */,
+				7539AF8F25A1BEB900805AD4 /* 226. 翻转二叉树.swift in Sources */,
+				7539AF222586692200805AD4 /* 662. 二叉树最大宽度.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,12 +427,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN64QT78CQ;
 				INFOPLIST_FILE = Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lit.LeetCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lit.LeetCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,12 +446,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN64QT78CQ;
 				INFOPLIST_FILE = Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lit.LeetCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lit.LeetCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

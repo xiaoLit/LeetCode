@@ -19,13 +19,11 @@
 import Foundation
 //递归
 func preorderTraversal(_ root: TreeNode?) -> [Int] {
+    if root == nil { return [] }
     var res: [Int] = []
-    if root == nil {
-        return []
-    }
     res.append(root!.val)
-    res += preorderTraversal(root!.left)
-    res += preorderTraversal(root!.right)
+    res.append(contentsOf: preorderTraversal(root!.left))
+    res.append(contentsOf: preorderTraversal(root!.right))
     return res
 }
 
@@ -46,3 +44,21 @@ func preorderTraversal2(_ root: TreeNode?) -> [Int] {
     return res
 }
 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+//func preorderTraversal3(_ root: TreeNode?) -> [Int] {
+// 
+//  
+//}
